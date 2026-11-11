@@ -2,8 +2,7 @@
 __pycache__/
 *.py[cod]
 
-# ASR 语音模型权重（单文件 153MB，超过 GitHub 100MB 限制，需自行下载）
-ASR/**/*.onnx
+# ASR 语音模型权重由 Git LFS 托管，见 .gitattributes
 
 # 调试时拍摄的临时图片（保留 captured_example.jpg 作为示例）
 debug/captured/captured_20*.jpg

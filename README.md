@@ -26,7 +26,7 @@ test/
 └── README.md                  # 项目说明文档
 ```
 
-> 注：`ASR/sherpa-onnx-streaming-zipformer-zh-int8-2025-06-30` 下的 `*.onnx` 模型文件体积超过 GitHub 单文件限制，未上传到仓库，请从 [sherpa-onnx 模型库](https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models) 下载同名模型后放入该目录。
+> 注：`ASR/sherpa-onnx-streaming-zipformer-zh-int8-2025-06-30` 下的 `*.onnx` 模型文件由 Git LFS 托管。克隆仓库前请先安装 Git LFS 并执行 `git lfs install`，否则只会拿到 LFS 指针文件。若缺失可自行从 [sherpa-onnx 模型库](https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models) 下载同名模型放入该目录。
 
 ### 最重要文件是以下三个：
 #### 🔧 `robot_common.py` (通用工具)
